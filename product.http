@@ -1,0 +1,17 @@
+POST http://localhost:3000/product
+Content-Type: application/json
+
+{
+  "name": "Smart Watch",
+  "quantity": 5,
+  "price": 76.21
+}
+
+###
+
+PATCH http://localhost:3000/product/2
+Content-Type: application/json
+
+{
+  "price": 56.20
+}
